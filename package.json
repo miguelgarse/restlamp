@@ -1,0 +1,24 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "first app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Miguel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "toastr": "^2.1.4"
+  }
+}

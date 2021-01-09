@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lámpara</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="./window.js" charset="utf-8"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="jumbotron">
+            <center>
+                <h1 class="display-4">Lámpara inteligente</h1>
+                <hr class="my-4">
+                <p id="dirIp" class="lead"></p>
+            </center>
+        </div>
+    </header>
+
+
+    <center>
+        <div id="myLamp"
+            style="width: 150px; height: 150px; background-color: rgb(172, 172, 172); border-radius: 50%; border: 1px;"
+            class="shadowed"></div>
+    </center>
+
+
+    <footer class="footer">
+        <div class="text-center py-3">
+            Develop by Miguel García Serrano
+        </div>
+    </footer>
+</body>
+
+</html>
